@@ -34,7 +34,12 @@ export function NavBar() {
                                 </Link>
                             </DialogClose>
                             <DialogClose asChild>
-                                <Link href="/course"> {/* Change to navigate to the course page */}
+                                <Link href="/intenships"> 
+                                    <Button variant="ghost">Internships</Button>
+                                </Link>  
+                            </DialogClose> 
+                            <DialogClose asChild>
+                                <Link href="/course"> 
                                     <Button variant="ghost">Courses</Button>
                                 </Link>  
                             </DialogClose>          
@@ -68,7 +73,10 @@ export function NavBar() {
                     <Link href="#about-us">
                         <Button variant="ghost">About Us</Button>
                     </Link>
-                    <Link href="/course"> {/* Change to navigate to the course page */}
+                    <Link href="/internships"> 
+                        <Button variant="ghost">Internships</Button>
+                    </Link>
+                    <Link href="/course"> 
                         <Button variant="ghost">Courses</Button>
                     </Link>
                     <Link href="#features">
