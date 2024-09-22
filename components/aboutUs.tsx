@@ -20,14 +20,7 @@ const AboutUs = () => {
       <Container>
 
       <TracingBeam className="px-6">
-        <div className="not-prose relative flex w-full overflow-hidden rounded-lg border">
-          <Image
-            src={Placeholder}
-            alt="placeholder"
-            layout="responsive" // This ensures the image scales proportionally
-            objectFit="contain" // This ensures the whole image is visible
-          />
-        </div>
+
 
        
         <h2>Internloom</h2>
