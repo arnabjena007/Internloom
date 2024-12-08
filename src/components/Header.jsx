@@ -15,22 +15,22 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/pages/internship" className="hover:text-secondary">
+              <Link href="/internships" className="hover:text-secondary">
                 Internships
               </Link>
             </li>
             <li>
-              <Link href="/pages/course" className="hover:text-secondary">
+              <Link href="/courses" className="hover:text-secondary">
                 Courses
               </Link>
             </li>
             <li>
-              <Link href="/pages/login" className="hover:text-secondary">
+              <Link href="/login" className="hover:text-secondary">
                 Login
               </Link>
             </li>
             <li>
-              <Link href="/pages/contact" className="hover:text-secondary">
+              <Link href="/contact" className="hover:text-secondary">
                 Contact
               </Link>
             </li>

@@ -1,7 +1,7 @@
 'use client'; // Client-side component
 
 import React, { useState } from 'react';
-import { useAuth } from '@/app/lib/AuthContext'; // Adjust the import path if necessary
+import { useAuth } from '@/src/lib/AuthContext'; // Adjust the import path if necessary
 
 const Login = () => {
     const { login } = useAuth(); // Get login function from context

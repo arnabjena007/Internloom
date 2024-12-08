@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import CourseCard from "@/app/components/CourseCard";
-import Filters from "@/app/components/Filter";
+import CourseCard from "@/src/components/CourseCard";
+import Filters from "@/src/components/Filter";
 
 const CoursesPage = () => {
   const [courses, setCourses] = useState([
