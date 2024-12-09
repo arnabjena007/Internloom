@@ -12,14 +12,18 @@ export default function Home() {
     <div>
       <TopBanner />
       <HeroSection />
+
       <CategorySection />
       <CitySection />
+
       <div className="w-full mx-auto my-6 p-4 bg-gray-100 rounded-lg shadow-md border border-gray-300">
         <InternshipTab />
       </div>
+
       <div className="w-full mx-auto my-6 p-4 bg-gray-100 rounded-lg shadow-md border border-gray-300">
         <CoursesTab />
       </div>
+      
       <Footer />
     </div>
   );
