@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const Header = () => {
+const HeaderOld = () => {
   return (
     <header className="bg-blue-700 text-white shadow-lg">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -12,7 +12,7 @@ const Header = () => {
           <Image src="/images/logo.png" alt="InternLoom" width={70} height={0} style={{ width: 70, height: "auto" }} />
           <h2 className="font-bold text-2xl">InternLoom</h2>
         </div>
-        
+
         <nav>
           <ul className="flex space-x-6">
             <li>
@@ -51,5 +51,43 @@ const Header = () => {
     </header>
   );
 };
+
+const Header = () => {
+  return (
+    <header className="flex justify-between items-center py-5 px-10 bg-white shadow-md">
+      <div className="flex items-center">
+        <Image src="/images/logo_full.png" alt="InternLoom" width={200} height={0} style={{ width: 200, height: "auto" }} />
+
+      </div>
+      <nav className="flex gap-6">
+        <a href="/internships" className="text-gray-800 hover:text-gray-600">
+          Internships
+        </a>
+        <a href="/courses" className="text-gray-800 hover:text-gray-600">
+          Courses
+        </a>
+        <a href="#features" className="text-gray-800 hover:text-gray-600">
+          Features
+        </a>
+        <a href="#pricing" className="text-gray-800 hover:text-gray-600">
+          Pricing
+        </a>
+        <a href="#contact" className="text-gray-800 hover:text-gray-600">
+          Contact Us
+        </a>
+      </nav>
+      
+      <div className="flex gap-4">
+        <a href="/login" className="bg-yellow-400 text-black px-4 py-2 rounded-md font-bold">
+          Student Sign Up
+        </a>
+
+        <a href="/login" className="bg-yellow-400 text-black px-4 py-2 rounded-md font-bold">
+          Employer Sign Up
+        </a>
+      </div>
+    </header>
+  );
+}
 
 export default Header;
