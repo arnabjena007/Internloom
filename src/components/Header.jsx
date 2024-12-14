@@ -78,12 +78,12 @@ const Header = () => {
       </nav>
       
       <div className="flex gap-4">
-        <a href="/login" className="bg-yellow-400 text-black px-4 py-2 rounded-md font-bold">
-          Student Sign Up
+        <a href="/signup" className="bg-yellow-400 text-black px-8 py-2 rounded-full font-bold">
+          Sign Up
         </a>
 
-        <a href="/login" className="bg-yellow-400 text-black px-4 py-2 rounded-md font-bold">
-          Employer Sign Up
+        <a href="/login" className="bg-white border-2 border-black text-black px-8 py-2 rounded-full font-bold">
+          Sign In
         </a>
       </div>
     </header>
