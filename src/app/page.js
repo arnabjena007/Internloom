@@ -7,27 +7,21 @@ function Home() {
     <div className="text-gray-900 font-sans w-full">
 
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center text-center py-20 bg-blue-500 text-white">
-        <p className="text-lg font-semibold">Empowering Your Career Growth</p>
-        <h1 className="text-5xl font-bold mt-4">Weaving Your Future Together</h1>
-        <p className="mt-4">
-          Discover Exciting Internship Opportunities and{" "}
-          <span className="font-semibold">Unlock Your Potential Today</span>
-        </p>
-        <p className="mt-2 text-lg font-semibold">
-          Empower Your Future with InternLoom
-        </p>
-        <div className="flex mt-6 gap-4">
-          <button className="bg-white text-blue-500 px-6 py-3 rounded-md font-bold">
-            Learn More
-          </button>
-          <button className="bg-blue-700 text-white px-6 py-3 rounded-md font-bold">
-            Get Started
-          </button>
+      <section className="h-[80vh] bg-black">
+        <div className="flex flex-col items-center justify-center text-center py-20 text-white bg-[url('/images/landing/image1.png')] bg-cover bg-center bg-no-repeat w-full h-full">
+
+          <div className="bg-indigo-600 px-4 py-2 rounded flex flex-row items-center gap-6">
+            <p className="text-lg font-semibold">Empowering Your Career Growth</p>
+            <a className="text-yellow-500 text-lg font-semibold">Explore More</a>
+          </div>
+
+          <h1 className="text-5xl font-bold mt-10">Weaving Your Future Together</h1>
+
+          <p className="mt-16 text-xl">Discover Exciting Internship Opportunities and Unlock Your Potential</p>
+
+          <button className="mt-10 bg-indigo-600 text-white px-6 py-3 rounded-md font-semibold">Get Started Now</button>
         </div>
       </section>
-
-      <Image src="/images/landing/image1.png" alt="InternLoom" width={0} height={0} sizes="100vw" style={{ width: "100%", height: "auto" }} />
 
       {/* About Section */}
       <section className="flex flex-col md:flex-row md:px-32 items-center py-16 px-10 bg-gray-100">
@@ -35,8 +29,8 @@ function Home() {
         <img src="/images/landing/image.png" alt="People collaborating" className="w-full md:w-1/3 rounded-lg" />
 
         <div className="flex flex-col gap-4 mt-8 md:mt-0 md:ml-10 text-left">
-          <h4 className="text-lg text-gray-600">Unlock Your Potential Today</h4>
-          <h1 className="text-3xl font-bold text-blue-800">
+          <h4 className="text-lg text-gray-500 font-semibold">Unlock Your Potential Today</h4>
+          <h1 className="text-3xl font-bold text-black">
             Empower Your Future with InternLoom
           </h1>
           <p className="text-gray-700 leading-relaxed">
@@ -46,7 +40,7 @@ function Home() {
             perfect fit for your business.
           </p>
           <div className="flex flex-col gap-4 items-start">
-            <button className="bg-blue-500 text-white px-6 py-3 rounded-md">
+            <button className="bg-indigo-600 text-white px-6 py-3 rounded-md">
               Get Started Now
             </button>
             <p className="text-sm text-gray-600">
