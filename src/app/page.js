@@ -45,7 +45,7 @@ function Home() {
             </button>
             <p className="text-sm text-gray-600">
               Already a Member?{" "}
-              <a href="/login" className="text-blue-500 hover:underline">
+              <a href="/auth/login" className="text-blue-500 hover:underline">
                 Sign In Here
               </a>
             </p>
